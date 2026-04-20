@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>登入範例</title>
+    </head>
+    <body>
+        <form method=post action="2.login.php">
+            帳號：<input type=text name="id"><br />
+            密碼：<input type=password name="pwd"><p></p>
+            <input type=submit value="登入"> <input type=reset value="清除">
+            
+        </form>
+    </body>
+</html>
+//流程
+1.使用者輸入帳號密碼
+2.按「登入」
+3.表單用 POST 傳到 2.login.php
+4.PHP 讀取
+5.做驗證（例如比對資料庫）
